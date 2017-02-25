@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MyWebsite</title>
+    <style>
+        body {
+              background-color: #eeeeee;
+  }
+    </style>
+
+    <link  href="styles.css" rel="stylesheet"/>
+
+</head>
+<!--Body of the page-->
+<body >
+<article>
+    <header></header>
+    <section>
+        <article>
+            <!--main header of the page-->
+            <header>
+                <div>
+                    <h1>
+                        Welcome to my Website!
+                    </h1>
+                    <br/>
+                </div>
+            </header>
+            <section>
+                <form name="newLicenseForm">
+                    <div class="container">
+                        <!--firstName-->
+                        <label for="firstName">Aplicants First Name:</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Enter ur First Name"/>
+                    </div>
+                    <br/>
+                    <div class="container" >
+                        <!--lastName-->
+                        <label for="lastName">Aplicants Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Enter ur Last Name"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <!--phoneNumber-->
+                        <label for="phoneNumber">Aplicants Phone Name:</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter ur phoneNumber"/>
+                    </div>
+                    <br/>
+                    <div>
+                        <!--gender-->
+                        <label for="gender">Applicants Name:</label>
+                        <div id="gender">
+                            <!--male-->
+                            <label for="male">Male:</label>
+                            <input type="radio" id="male" name="gender" value="gender"/>
+                            <!--female-->
+                            <label for="female">Female:</label>
+                            <input type="radio" id="female" name="gender" value="gender"/>
+
+                        </div>
+                    </div>
+                    <br/>
+                    <!--seniorCitizen-->
+                    <div >
+                        <label for="seniorCitizen">For Senior Citizen:</label>
+                        <input type="checkbox" id="seniorCitizen" name="seniorCitizen">
+
+                    </div>
+                    <br/>
+                    <!--Submit Button-->
+                    <button type="submit" id="submit"  class="btn btn-primary">
+                        <span>Submit</span>
+                    </button>
+                    <!--reset button-->
+                    <button type="reset" id="reset" name="reset">
+                        <span>Reset</span>
+                    </button>
+                    <br/>
+
+                </form>
+                <div>
+                <form name="karthikForm">
+                    <label for="typeage">Enter Age</label>
+                    <input type="text" id="typeage" name="age"/>
+                </form>
+                </div>
+            </section>
+            <footer>
+                Get out of my website!!!!
+            </footer>
+        </article>
+    </section>
+
+    <footer></footer>
+</article>
+
+</body>
+</html>

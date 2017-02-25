@@ -1,0 +1,27 @@
+form[name="newLicenseForm"]{
+     border: 8px solid #000;
+
+     display: inline-block;
+
+           }
+form[name="karthikForm"]{
+     border: 2px dotted #00ff00;
+          display: inline-block;
+
+     }
+
+label {
+     display: block;
+}
+#reset{
+background: #ff0000;
+color: #fff;
+border: 1px solid #000;
+
+}
+button[type="submit"]{
+color: #00ff00;}
+}
+.container {
+background-color: #0000ff;
+}
